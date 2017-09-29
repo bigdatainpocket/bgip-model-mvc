@@ -10,6 +10,16 @@ public class BaseBean implements Serializable {
 	Date created;
 	private String timeDiff;
 	private String timeZone;
+	private String userName;
+
+	
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 
 	public Date getCreated() {
 		return created;

@@ -3,7 +3,6 @@ package com.bgip.model.user;
 public class UserBean extends BaseBean {
 
 	private static final long serialVersionUID = 1746361140054130141L;
-	private String userName;
 	private String password;
 	private String firstName;
 	private String lastName;
@@ -28,14 +27,7 @@ public class UserBean extends BaseBean {
 	public void setPrivacy(String privacy) {
 		this.privacy = privacy;
 	}
-	//private String profile_name;
-	//private String status;
-	public String getUserName() {
-		return userName;
-	}
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+	
 	public String getPassword() {
 		return password;
 	}
