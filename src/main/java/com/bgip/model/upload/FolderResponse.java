@@ -1,4 +1,4 @@
-package com.bgip.model;
+package com.bgip.model.upload;
 
 import java.util.List;
 
