@@ -8,7 +8,7 @@ public class FilesBean extends BaseBean{
 
 	private String fileName;
 	
-	private String folderId;
+	private String folderId = "0";
 	
 	private int size;
 	

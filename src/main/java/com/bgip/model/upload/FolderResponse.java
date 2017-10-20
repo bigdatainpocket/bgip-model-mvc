@@ -3,24 +3,28 @@ package com.bgip.model.upload;
 import java.util.List;
 
 import com.bgip.model.upload.FilesBean;
-import com.bgip.model.upload.FoldersBean;
+import com.bgip.model.upload.FolderBean;
 
-public class FolderResponse extends FoldersBean{
+public class FolderResponse extends FolderBean{
 
-	private static final long serialVersionUID = 6479214388144251811L;
-
+	private static final long serialVersionUID = 5842793384730832688L;
+	private List<FolderBean> folderList;
+	private List<FilesBean> fileList;
 	
-	private List<FilesBean> files;
-
-
-	public List<FilesBean> getFiles() {
-		return files;
+	
+	public List<FolderBean> getFolderList() {
+		return folderList;
+	}
+	public void setFolderList(List<FolderBean> folderList) {
+		this.folderList = folderList;
+	}
+	public List<FilesBean> getFileList() {
+		return fileList;
+	}
+	public void setFileList(List<FilesBean> fileList) {
+		this.fileList = fileList;
 	}
 
 
-	public void setFiles(List<FilesBean> files) {
-		this.files = files;
-	}
-	
 	
 }
