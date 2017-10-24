@@ -14,8 +14,17 @@ public class FolderBean extends BaseBean {
 	
 	private boolean favourite;
 
+	private String bucketPublicId;
 	
 	
+	public String getBucketPublicId() {
+		return bucketPublicId;
+	}
+
+	public void setBucketPublicId(String bucketPublicId) {
+		this.bucketPublicId = bucketPublicId;
+	}
+
 	public String getParentFolderId() {
 		return parentFolderId;
 	}

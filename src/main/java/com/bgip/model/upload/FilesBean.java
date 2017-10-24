@@ -14,8 +14,9 @@ public class FilesBean extends BaseBean{
 	
 	private boolean favourite;
 	
-	private String dLink;
-	
+	private String link;
+
+	private String bucketPublicId;
 	
 	public boolean isFavourite() {
 		return favourite;
@@ -49,14 +50,23 @@ public class FilesBean extends BaseBean{
 		this.size = size;
 	}
 
-	public String getdLink() {
-		return dLink;
+	public String getLink() {
+		return link;
 	}
 
-	public void setdLink(String dLink) {
-		this.dLink = dLink;
+	public void setLink(String link) {
+		this.link = link;
 	}
 
+	public String getBucketPublicId() {
+		return bucketPublicId;
+	}
+
+	public void setBucketPublicId(String bucketPublicId) {
+		this.bucketPublicId = bucketPublicId;
+	}
+
+	
 	
 	
 	
