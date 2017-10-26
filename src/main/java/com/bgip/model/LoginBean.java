@@ -7,7 +7,6 @@ public class LoginBean  extends BaseBean{
 
   
 	private static final long serialVersionUID = -823210910906011374L;
-	private String userName;
     private String password;
     private String role;
     private String token;
@@ -35,12 +34,7 @@ public class LoginBean  extends BaseBean{
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getUserName() {
-		return userName;
-	}
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+	
 	public String getPassword() {
         return password;
     }
